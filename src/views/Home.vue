@@ -37,14 +37,15 @@
       //- Footer
       footer.footer.bg-white
         .container.px-4.py-3
-          .row.justify-content-start.align-items-center
+          .row.justify-content-start.align-items-start
             .col-lg-auto
               img.logo-footer(
-                src="@/assets/portada/logo-footer.png"
-                alt="Logo Tecnológica del Oriente"
+                src="@/assets/portada/logo-footer.svg"
+                alt="Logo Contenidos Interactivos"
+                style="height: 48px;"
               )
             .col-lg.px-0.d-none.d-lg-block
-              p.footer-text.mb-0 Todo el contenido de este curso es propiedad intelectual de Corporación Tecnológica del Oriente y está protegido por derechos de autor. No puede ser reproducido, distribuido, modificado ni compartido sin su autorización por escrito.
+              p.footer-text.mb-0 Todo el contenido de este curso es propiedad intelectual de NOMBRE INSTITUCIÓN y está protegido por derechos de autor. No puede ser reproducido, distribuido, modificado ni compartido sin su autorización por escrito.
               
 </template>
 

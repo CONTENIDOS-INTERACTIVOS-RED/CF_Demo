@@ -19,7 +19,7 @@
           span.me-1 Ver contenido
           i(class="fas fa-angle-right")
     router-link(to="/")
-      img.header__logo(src="@/assets/template/logo.svg")
+      img.header__logo(src="@/assets/template/logo.svg", style="height: 36px;")
   
   </template>
 
